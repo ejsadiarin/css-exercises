@@ -1,0 +1,12 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* extra: this .text "color: violet" doesn't cascade the descendant combinator
+    "color: red" 
+*/
+/* .text {
+    color: violet;
+} */
