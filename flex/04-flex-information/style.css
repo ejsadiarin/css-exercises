@@ -43,5 +43,6 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-width: 200px;
+  margin: 52px;
+  margin-top: 0px;
 }
