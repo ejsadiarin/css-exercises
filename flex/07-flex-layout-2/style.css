@@ -32,7 +32,6 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -45,19 +44,25 @@ body {
 
 .container-content {
   display: flex;
-
+  flex: 1;
 }
 
 .container-card {
   display: flex;
+  flex-direction: row;
+  gap: 5px;
+  /* flex-wrap: wrap; */
 }
+
+/* .card {
+  display: inline;
+} */
 
 ul {
   text-decoration: none;
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
+  margin: 0;
+  padding-left: 0;
 }
 
 li {
@@ -66,10 +71,13 @@ li {
 }
 
 .sidebar {
-  /* padding: 200px; */
-  /* padding-left: 0; */
-  height: 100%;
-  width: 100px;
-  position: fixed;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
