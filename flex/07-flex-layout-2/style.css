@@ -49,14 +49,17 @@ body {
 
 .container-card {
   display: flex;
-  flex-direction: row;
-  gap: 5px;
-  /* flex-wrap: wrap; */
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 
-/* .card {
-  display: inline;
-} */
+.card {
+  /* box-sizing: border-box; */
+  padding: 20px;
+  max-width: 300px;
+  height: 300px;
+}
 
 ul {
   text-decoration: none;
@@ -67,13 +70,23 @@ ul {
 
 li {
   box-sizing: border-box;
-  margin: 10px;
+  margin-bottom: 40px;
+  min-width: 200px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 20px;
+  flex-shrink: 0;
 }
 
 .footer {
